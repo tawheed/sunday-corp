@@ -22,7 +22,7 @@ export default function Header({ nav = true }: {
               {/* Desktop sign in links */}
               <ul className="flex grow justify-end flex-wrap items-center">
                 <li>
-                  <Link className="font-medium text-slate-500 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="/signin">Sign in</Link>
+                  <Link className="font-medium text-slate-500 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://app.unstoppablesunday.com" target="_blank">Sign in</Link>
                 </li>
                 <li className="ml-3">
                   <Link className="btn-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group" href="/signup">

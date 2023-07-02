@@ -42,13 +42,13 @@ export default function Pricing() {
             </p>
             <div className="max-w-md mb-8 text-white text-left mx-auto">
               <div className="grid grid-cols-2 gap-x-24 leading-loose">
-                <ul className="list-disc">
+                <ul className="list-disc ml-4">
                   <li>Daily Execution Hitlist</li>
                   <li>Weekly Planning</li>
                   <li>Monthly Reflections</li>
                   <li>Pomodoro Timer</li>
                 </ul>
-                <ul className="list-disc">
+                <ul className="list-disc ml-4">
                   <li>Unstoppable Journal</li>
                   <li>Guided Video</li>
                   <li>Alpha Waves</li>
