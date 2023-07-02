@@ -124,15 +124,6 @@ export default function Features() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-4">
               {features.map((feature, index) => (
                 <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
-                  {feature.image && (
-                  <Image
-                    className="mb-3"
-                    src={feature.image}
-                    width={56}
-                    height={56}
-                    alt="Icon 01"
-                  />)}
-
                   {feature.icon && (
                     <div className="w-[56px] h-[56px] rounded-full bg-indigo-500 mb-3 flex items-center justify-center">
                     {feature.icon}
