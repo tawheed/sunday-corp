@@ -59,7 +59,7 @@ export default function Faqs() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-hkgrotesk mb-4">
-              What is Unstoppable?
+              Unstoppable Principles
             </h2>
             <p className="text-xl text-slate-500">
               Every Founder needs a strategy for their personal life and their business. When you're with us, yours will be unstoppable.
