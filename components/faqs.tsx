@@ -36,7 +36,7 @@ export default function Faqs() {
       title: "SaaS Founder Routines That Boost Productivity",
       description:
         "There's this one secret weapon in startups that none of us talk about enough and that's the idea of stamina. There are those that learn to master it and they can go the distance and there are those that don't.",
-      url: "https://www.youtube.com/watch?v=CaH1UHGB_yA",
+      url: "https://www.youtube.com/watch?v=l1V4qGm9G9U",
     },
     {
       title: "How I Use the Holiday Period to Plan My Life",

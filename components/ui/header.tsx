@@ -7,8 +7,8 @@ export default function Header({ nav = true }: {
 }) {
   return (
     <header className="absolute w-full z-30">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-16 md:h-20">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-8 sm:mt-0">
+        <div className="flex flex-col md:flex-row items-center justify-between h-16 md:h-20">
           {/* Site branding */}
           <div className="shrink-0 mr-4 leading-8 font-bold">
             {/* Logo */}
@@ -18,7 +18,7 @@ export default function Header({ nav = true }: {
           </div>
           {/* Desktop navigation */}
           {nav &&
-            <nav className="flex grow">
+            <nav className="flex grow hidden sm:block">
               {/* Desktop sign in links */}
               <ul className="flex grow justify-end flex-wrap items-center">
                 <li>
