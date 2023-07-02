@@ -1,0 +1,607 @@
+{
+  "ssrModuleMapping": {
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/cta-illustration.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/cta-illustration.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/features-illustration.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/features-illustration.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/pricing-illustration.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/pricing-illustration.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/sunday-app-screenshot.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/sunday-app-screenshot.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/testimonial-ono.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/images/testimonial-ono.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/testimonial-stephen.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/images/testimonial-stephen.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/testimonial-tk.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/images/testimonial-tk.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/features.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/features.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/pricing.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/pricing.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/hero-illustration.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/hero-illustration.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/sunday-logo-no-border.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/sunday-logo-no-border.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/(default)/layout.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/(default)/layout.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/auth-illustration.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/auth-illustration.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/avatar-01.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/images/avatar-01.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/avatar-02.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/images/avatar-02.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/avatar-03.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/images/avatar-03.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/avatar-04.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/images/avatar-04.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    }
+  },
+  "edgeSSRModuleMapping": {},
+  "clientModules": {
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/client/components/redirect-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/shared/lib/app-router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/cta-illustration.svg": {
+      "id": "(app-client)/./public/images/cta-illustration.svg",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/features-illustration.svg": {
+      "id": "(app-client)/./public/images/features-illustration.svg",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/pricing-illustration.svg": {
+      "id": "(app-client)/./public/images/pricing-illustration.svg",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/sunday-app-screenshot.png": {
+      "id": "(app-client)/./public/images/sunday-app-screenshot.png",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/testimonial-ono.jpg": {
+      "id": "(app-client)/./public/images/testimonial-ono.jpg",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/testimonial-stephen.jpg": {
+      "id": "(app-client)/./public/images/testimonial-stephen.jpg",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/testimonial-tk.jpg": {
+      "id": "(app-client)/./public/images/testimonial-tk.jpg",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/components/features.tsx": {
+      "id": "(app-client)/./components/features.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/components/pricing.tsx": {
+      "id": "(app-client)/./components/pricing.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(default)/page:static/chunks/app/(default)/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/signup/page:static/chunks/app/(auth)/signup/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/signup/page:static/chunks/app/(auth)/signup/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/signin/page:static/chunks/app/(auth)/signin/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/signin/page:static/chunks/app/(auth)/signin/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/signup/page:static/chunks/app/(auth)/signup/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/node_modules/next/dist/esm/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/signup/page:static/chunks/app/(auth)/signup/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/hero-illustration.svg": {
+      "id": "(app-client)/./public/images/hero-illustration.svg",
+      "name": "*",
+      "chunks": [
+        "app/(default)/layout:static/chunks/app/(default)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/sunday-logo-no-border.png": {
+      "id": "(app-client)/./public/images/sunday-logo-no-border.png",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/layout:static/chunks/app/(auth)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/app/(default)/layout.tsx": {
+      "id": "(app-client)/./app/(default)/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(default)/layout:static/chunks/app/(default)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/auth-illustration.svg": {
+      "id": "(app-client)/./public/images/auth-illustration.svg",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/layout:static/chunks/app/(auth)/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/avatar-01.jpg": {
+      "id": "(app-client)/./public/images/avatar-01.jpg",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/signup/page:static/chunks/app/(auth)/signup/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/avatar-02.jpg": {
+      "id": "(app-client)/./public/images/avatar-02.jpg",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/signup/page:static/chunks/app/(auth)/signup/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/avatar-03.jpg": {
+      "id": "(app-client)/./public/images/avatar-03.jpg",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/signup/page:static/chunks/app/(auth)/signup/page.js"
+      ],
+      "async": false
+    },
+    "/Users/tk/projects/sunday-corp/public/images/avatar-04.jpg": {
+      "id": "(app-client)/./public/images/avatar-04.jpg",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/signup/page:static/chunks/app/(auth)/signup/page.js"
+      ],
+      "async": false
+    }
+  },
+  "entryCSSFiles": {
+    "/Users/tk/projects/sunday-corp/app/layout": {
+      "modules": [
+        "/Users/tk/projects/sunday-corp/app/css/style.css",
+        "/Users/tk/projects/sunday-corp/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\",\"display\":\"swap\"}],\"variableName\":\"inter\"}",
+        "/Users/tk/projects/sunday-corp/node_modules/next/font/local/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"../public/fonts/HKGrotesk-Medium.woff2\",\"weight\":\"500\"},{\"path\":\"../public/fonts/HKGrotesk-Bold.woff2\",\"weight\":\"700\"},{\"path\":\"../public/fonts/HKGrotesk-ExtraBold.woff2\",\"weight\":\"800\"}],\"variable\":\"--font-hkgrotesk\",\"display\":\"swap\"}],\"variableName\":\"hkgrotesk\"}"
+      ],
+      "files": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/tk/projects/sunday-corp/app/(default)/page": {
+      "modules": [
+        "/Users/tk/projects/sunday-corp/node_modules/swiper/swiper.min.css"
+      ],
+      "files": [
+        "static/css/app/(default)/page.css"
+      ]
+    },
+    "/Users/tk/projects/sunday-corp/app/(default)/layout": {
+      "modules": [
+        "/Users/tk/projects/sunday-corp/node_modules/aos/dist/aos.css"
+      ],
+      "files": [
+        "static/css/app/(default)/layout.css"
+      ]
+    },
+    "/Users/tk/projects/sunday-corp/app/(auth)/layout": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/tk/projects/sunday-corp/app/(auth)/signup/page": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/tk/projects/sunday-corp/app/(auth)/signin/page": {
+      "modules": [],
+      "files": []
+    }
+  }
+}
