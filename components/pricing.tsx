@@ -57,7 +57,7 @@ export default function Pricing() {
               </div>
             </div>{" "}
             <Link
-              className="btn text-white bg-indigo-500 hover:bg-indigo-600 shadow-sm group"
+              className="btn mt-2 text-white bg-indigo-500 hover:bg-indigo-600 shadow-sm group"
               href="/signup"
             >
               Start Free Trial{" "}
