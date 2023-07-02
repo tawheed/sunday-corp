@@ -49,7 +49,7 @@ export default function Faqs() {
       description:
         "I believe that you should have an Unstoppable strategy both for your personal life and for your business. In this episode, I share the 6 key steps I've consistently followed to build an unstoppable GTM Strategy.",
       url: "https://www.youtube.com/watch?v=39Qkonv_JRs",
-    }
+    },
   ];
 
   return (
@@ -58,11 +58,10 @@ export default function Faqs() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-hkgrotesk mb-4">
-              Unstoppable Principles
-            </h2>
+            <h2 className="h2 font-hkgrotesk mb-4">Unstoppable Principles</h2>
             <p className="text-xl text-slate-500">
-              Every Founder needs a strategy for their personal life and their business. When you're with us, yours will be unstoppable.
+              Every Founder needs a strategy for their personal life and their
+              business. When you're with us, yours will be unstoppable.
             </p>
           </div>
 
@@ -93,34 +92,35 @@ export default function Faqs() {
               {/* Item */}
               <div className="space-y-2">
                 <h4 className="text-xl font-hkgrotesk font-medium">
-                  What is the difference between the Free and Paid versions?
+                  Why is the Unstoppable Sunday method so effective?
                 </h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua,
-                  ut enim ad minim veniam.
+                  The Unstoppable Sunday application helps you through asking
+                  and answering the right questions to help you plan your week.
+                  It's a simple process that helps you practice gratitude,
+                  celebrate your wins, and then plan your week.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
                 <h4 className="text-xl font-hkgrotesk font-medium">
-                  Do you have student or non-profit discounts?
+                  Is the Unstoppable Sunday method only for Founders?
                 </h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua,
-                  ut enim ad minim veniam.
+                  While the Unstoppable Sunday method was designed with Founders
+                  in mind, it's a great tool for anyone who wants to be more
+                  productive and accomplish their goals.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
                 <h4 className="text-xl font-hkgrotesk font-medium">
-                  How is the price determined?
+                  How long does Unstoppable Sunday take?
                 </h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua,
-                  ut enim ad minim veniam.
+                  In just 15-minutes, the Unstoppable Sunday application will
+                  guide you in creating a plan for your week and go into Monday
+                  with a clear intention and a plan of attack.
                 </p>
               </div>
             </div>
@@ -129,34 +129,38 @@ export default function Faqs() {
               {/* Item */}
               <div className="space-y-2">
                 <h4 className="text-xl font-hkgrotesk font-medium">
-                  Do I need coding knowledge to use this product?
+                  How does Unstoppable help me execute on my goals?
                 </h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua,
-                  ut enim ad minim veniam.
+                  Every day you'll choose your top 3 priorities. The application then leverages the power of Alpha Waves playing in the background along with a Pomodoro timer to help you focus and execute on your key tasks.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
                 <h4 className="text-xl font-hkgrotesk font-medium">
-                  Is there a way to become an Affiliate reseller?
+                  Will my data be secure?
                 </h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua,
-                  ut enim ad minim veniam.
+                  We take your privacy and security very seriously. We use
+                  industry-standard security and encryption practices to store your data and
+                  protect it from unauthorized access.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
                 <h4 className="text-xl font-hkgrotesk font-medium">
-                  What forms of payment do you accept?
+                  How do I get in touch with you?
                 </h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua,
-                  ut enim ad minim veniam.
+                  You can reach us at{" "}
+                  <a
+                    href="mailto:team@unstoppablesunday.com"
+                    className="text-sky-500 hover:text-sky-600"
+                    target="_blank"
+                  >
+                    team@unstoppablesunday.com
+                  </a> and we'd be happy to help you with any questions you
+                  have. You can also check out our <a href="https://getunstoppable.com/youtube" target="_blank" className="text-sky-500 hover:text-sky-600">Youtube</a> channel for more information.
                 </p>
               </div>
             </div>

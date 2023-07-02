@@ -7,9 +7,9 @@ export default function Footer() {
     <footer>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Blocks */}
-        <div className="grid sm:grid-cols-12 lg:grid-cols-10 gap-8 py-8 md:py-12 border-t border-slate-800">
+        <div className="hidden grid sm:grid-cols-12 lg:grid-cols-10 gap-8 py-8 md:py-12 border-t border-slate-800">
           {/* 1st block */}
-          <div className="sm:col-span-12 lg:col-span-2 lg:max-w-xs">
+          <div className="sm:col-span-12 lg:col-span-3 lg:max-w-xs">
             <div className="mb-2">
               {/* Logo */}
               <Link className="block" href="/" aria-label="Unstoppable Sunday">
@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
           </div>
           {/* 2nd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <div className="hidden sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">
               Products
             </h6>
@@ -63,7 +63,7 @@ export default function Footer() {
             </ul>
           </div>
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <div className="hidden sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">
               Resources
             </h6>
@@ -103,7 +103,7 @@ export default function Footer() {
             </ul>
           </div>
           {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <div className="hidden sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">
               Projects
             </h6>
@@ -143,7 +143,7 @@ export default function Footer() {
             </ul>
           </div>
           {/* 5th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <div className="hidden sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">
               Company
             </h6>
@@ -248,6 +248,8 @@ export default function Footer() {
             >
               Privacy Policy
             </a>
+            {" · "}
+            Copyright © {new Date().getFullYear()} · Unstoppable Ventures, LLC
           </div>
         </div>
       </div>
