@@ -22,10 +22,10 @@ const hkgrotesk = localFont({
     {
       path: '../public/fonts/HKGrotesk-ExtraBold.woff2',
       weight: '800',
-    },        
+    },
   ],
   variable: '--font-hkgrotesk',
-  display: 'swap',  
+  display: 'swap',
 })
 
 export const metadata = {

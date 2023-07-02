@@ -66,8 +66,8 @@ export default function Faqs() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-16">
-            {videos.map((video) => (
-              <div className="flex justify-center">
+            {videos.map((video, index) => (
+              <div className="flex justify-center" key={`video-${index}`}>
                 <div className="rounded-lg shadow-lg bg-slate-800">
                   <div className="w-full rounded-t-lg h-[200px] bg-slate-800 pt-2">
                     <ReactPlayer url={video.url} width="100%" height="100%" />
@@ -132,7 +132,10 @@ export default function Faqs() {
                   How does Unstoppable help me execute on my goals?
                 </h4>
                 <p className="text-slate-500">
-                  Every day you'll choose your top 3 priorities. The application then leverages the power of Alpha Waves playing in the background along with a Pomodoro timer to help you focus and execute on your key tasks.
+                  Every day you'll choose your top 3 priorities. The application
+                  then leverages the power of Alpha Waves playing in the
+                  background along with a Pomodoro timer to help you focus and
+                  execute on your key tasks.
                 </p>
               </div>
               {/* Item */}
@@ -142,8 +145,8 @@ export default function Faqs() {
                 </h4>
                 <p className="text-slate-500">
                   We take your privacy and security very seriously. We use
-                  industry-standard security and encryption practices to store your data and
-                  protect it from unauthorized access.
+                  industry-standard security and encryption practices to store
+                  your data and protect it from unauthorized access.
                 </p>
               </div>
               {/* Item */}
@@ -159,8 +162,17 @@ export default function Faqs() {
                     target="_blank"
                   >
                     team@unstoppablesunday.com
-                  </a> and we'd be happy to help you with any questions you
-                  have. You can also check out our <a href="https://getunstoppable.com/youtube" target="_blank" className="text-sky-500 hover:text-sky-600">Youtube</a> channel for more information.
+                  </a>{" "}
+                  and we'd be happy to help you with any questions you have. You
+                  can also check out our{" "}
+                  <a
+                    href="https://getunstoppable.com/youtube"
+                    target="_blank"
+                    className="text-sky-500 hover:text-sky-600"
+                  >
+                    Youtube
+                  </a>{" "}
+                  channel for more information.
                 </p>
               </div>
             </div>

@@ -1,6 +1,8 @@
 export const metadata = {
-  title: 'Start 14-Day Free Trial | Unstoppable Sunday - The High Performance System for Founders',
-  description: 'Unstoppable Sunday helps you Pause and Reflect on the last 7 days and plan your next 7 days so you can operate at high performance and build the business of your dreams.',
+  title:
+    "Start 14-Day Free Trial | Unstoppable Sunday - The High Performance System for Founders",
+  description:
+    "Unstoppable Sunday helps you Pause and Reflect on the last 7 days and plan your next 7 days so you can operate at high performance and build the business of your dreams.",
 };
 
 import Image from "next/image";
@@ -30,9 +32,7 @@ export default function SignUp() {
                 >
                   <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                 </svg>
-                <span>
-                  Plan Your Week
-                </span>
+                <span>Plan Your Week</span>
               </li>
               <li className="flex items-center">
                 <svg
@@ -42,9 +42,7 @@ export default function SignUp() {
                 >
                   <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                 </svg>
-                <span>
-                  Execute Ruthlessly through the Week
-                </span>
+                <span>Execute Ruthlessly through the Week</span>
               </li>
               <li className="flex items-center">
                 <svg
@@ -54,9 +52,7 @@ export default function SignUp() {
                 >
                   <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                 </svg>
-                <span>
-                  Pause, Reflect and Iterate Every Month
-                </span>
+                <span>Pause, Reflect and Iterate Every Month</span>
               </li>
               <li className="flex items-center">
                 <svg
@@ -66,9 +62,7 @@ export default function SignUp() {
                 >
                   <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                 </svg>
-                <span>
-                  Unleash Your Full Potential
-                </span>
+                <span>Unleash Your Full Potential</span>
               </li>
             </ul>
           </div>
@@ -84,7 +78,10 @@ export default function SignUp() {
                 Start 14-Day FREE Trial
               </div>
               {/* Form */}
-              <form action="https://app.unstoppablesunday.com/users/unstoppable" method="post">
+              <form
+                action="https://app.unstoppablesunday.com/users/unstoppable"
+                method="post"
+              >
                 <div className="space-y-4">
                   <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                     <div className="sm:w-1/2">
@@ -167,12 +164,33 @@ export default function SignUp() {
                   </div>
                 </div>
                 <div className="mt-6">
-                  <button className="btn-sm text-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group">
+                  <button className="btn-sm text-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group mb-4">
                     Let's DO This{" "}
                     <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                       -&gt;
                     </span>
                   </button>
+                  <p className="text-center">
+                    <small className="text-slate-400">
+                      By signing up, you agree to our{" "}
+                      <a
+                        className="text-sky-500 hover:text-sky-600"
+                        href="https://tkkader.com/terms"
+                        target="_blank"
+                      >
+                        Terms of Service
+                      </a><br/>
+                      and{" "}
+                      <a
+                        className="text-sky-500 hover:text-sky-600"
+                        href="https://tkkader.com/privacy"
+                        target="_blank"
+                      >
+                        Privacy Policy
+                      </a>
+                      .
+                    </small>
+                  </p>
                 </div>
               </form>
             </div>
