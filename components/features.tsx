@@ -1,52 +1,11 @@
 "use client";
 
-import { useEffect } from "react";
 import Image from "next/image";
 import Illustration from "@/public/images/features-illustration.svg";
 
 import { ArrowPathIcon, BeakerIcon, BellAlertIcon, CalendarIcon, ChartBarIcon, ListBulletIcon, VideoCameraIcon } from '@heroicons/react/24/solid'
 
-import FeaturesIcon01 from "@/public/images/features-icon-01.svg";
-import FeaturesIcon02 from "@/public/images/features-icon-02.svg";
-import FeaturesIcon03 from "@/public/images/features-icon-03.svg";
-import FeaturesIcon04 from "@/public/images/features-icon-04.svg";
-
-// Import Swiper
-import Swiper, { Autoplay, Navigation } from "swiper";
-import "swiper/swiper.min.css";
-Swiper.use([Autoplay, Navigation]);
-
 export default function Features() {
-  useEffect(() => {
-
-    // const carousel = new Swiper(".carousel", {
-    //   breakpoints: {
-    //     320: {
-    //       slidesPerView: 1,
-    //     },
-    //     640: {
-    //       slidesPerView: 2,
-    //     },
-    //     1024: {
-    //       slidesPerView: 3,
-    //     },
-    //   },
-    //   grabCursor: true,
-    //   loop: false,
-    //   centeredSlides: false,
-    //   initialSlide: 0,
-    //   spaceBetween: 24,
-    //   autoplay: {
-    //     delay: 7000,
-    //   },
-    //   navigation: {
-    //     nextEl: ".carousel-next",
-    //     prevEl: ".carousel-prev",
-    //   },
-    // });
-
-  }, []);
-
   const features = [
     {
       icon: <CalendarIcon className="w-[32px] h-[32px] "></CalendarIcon>,

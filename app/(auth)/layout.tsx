@@ -6,7 +6,7 @@ export default function AuthLayout({
   children,
 }: {
   children: React.ReactNode
-}) {  
+}) {
   return (
     <>
       <Header nav={false} />
@@ -17,7 +17,7 @@ export default function AuthLayout({
           {/* Illustration */}
           <div className="hidden md:block absolute left-1/2 -translate-x-1/2 pointer-events-none -z-10" aria-hidden="true">
             <Image src={Illustration} className="max-w-none" priority alt="Page Illustration" />
-          </div>      
+          </div>
 
           {children}
 

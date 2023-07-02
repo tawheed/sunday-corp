@@ -19,6 +19,7 @@
     "next": "^13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-mixpanel-browser": "^3.3.0",
     "react-player": "^2.12.0",
     "swiper": "^8.4.7",
     "typescript": "^5.0.4"
