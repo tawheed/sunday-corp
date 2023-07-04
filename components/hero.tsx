@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import HeroImage from "@/public/images/sunday-app-screenshot-v2-s.png";
+import HeroImage from "@/public/images/sunday-app-screenshot-v2.png";
 
 export default function Hero() {
   return (
