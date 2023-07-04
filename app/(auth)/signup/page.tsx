@@ -10,10 +10,12 @@ import Avatar01 from "@/public/images/avatar-01.jpg";
 import Avatar02 from "@/public/images/avatar-02.jpg";
 import Avatar03 from "@/public/images/avatar-03.jpg";
 import Avatar04 from "@/public/images/avatar-04.jpg";
+import Tracking from "@/components/tracking";
 
 export default function SignUp() {
   return (
     <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+      <Tracking event="View Signup Page"></Tracking>
       <div className="pt-32 pb-12 md:pt-40 md:pb-20">
         <div className="lg:flex lg:space-x-20">
           {/* Left side */}
