@@ -1,4 +1,11 @@
 "use client";
+
+declare global {
+    interface Window {
+        mixpanel:any;
+    }
+}
+
 export default function Tracking({ event = "View Sales Page" }) {
   typeof window !== "undefined" &&
     window.mixpanel &&
