@@ -1,8 +1,13 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import Illustration from '@/public/images/cta-illustration.svg'
+"use client";
+import Image from "next/image";
+import Link from "next/link";
+import Illustration from "@/public/images/cta-illustration.svg";
+import VideoModal from "./videomodal";
+import { useState } from "react";
 
 export default function Cta() {
+  let [showVideoModal, setShowVideoModal] = useState(false);
+
   return (
     <section className="relative border-t border-slate-800">
       {/* Bg gradient: top */}
@@ -11,33 +16,75 @@ export default function Cta() {
         aria-hidden="true"
       />
       {/* Illustration */}
-      <div className="hidden lg:block absolute top-0 left-1/2 -translate-x-1/2 -mt-8 pointer-events-none -z-10" aria-hidden="true">
-        <Image src={Illustration} className="max-w-none" alt="Features 01 Illustration" />
+      <div
+        className="hidden lg:block absolute top-0 left-1/2 -translate-x-1/2 -mt-8 pointer-events-none -z-10"
+        aria-hidden="true"
+      >
+        <Image
+          src={Illustration}
+          className="max-w-none"
+          alt="Features 01 Illustration"
+        />
       </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-2xl mx-auto text-center pb-8" data-aos="fade-up">
-            <h2 className="h2 font-hkgrotesk mb-6">Become a High Performance Founder</h2>
-            <p className="text-xl text-slate-500" data-aos="fade-up" data-aos-delay="100">
-            Plan Your Week, Execute Ruthlessly, and Unleash Your Full Potential
+          <div
+            className="max-w-2xl mx-auto text-center pb-8"
+            data-aos="fade-up"
+          >
+            <h2 className="h2 font-hkgrotesk mb-6">
+              Become a High Performance Founder
+            </h2>
+            <p
+              className="text-xl text-slate-500"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              Plan Your Week, Execute Ruthlessly, and Unleash Your Full
+              Potential
             </p>
           </div>
           {/* Buttons */}
           <div className="text-center">
             <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <div data-aos="fade-up" data-aos-delay="100">
-                <Link className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group" href="/signup">
-                  Start Free Trial{' '}
+                <Link
+                  className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group"
+                  href="/signup"
+                >
+                  Start Free Trial{" "}
                   <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
                 </Link>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="100">
+                <Link
+                  className="btn text-white bg-gray-500 hover:bg-gray-600 w-full shadow-sm group"
+                  onClick={(event) => {
+                    setShowVideoModal(true);
+                    event.preventDefault();
+                  }}
+                  href={"#"}
+                >
+                  Watch Demo Video{" "}
+                  <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                    -&gt;
+                  </span>
+                </Link>
+                <VideoModal
+                  open={showVideoModal}
+                  url="https://tkkader.wistia.com/medias/r1f3dwsm3g"
+                  onHandleClose={() => {
+                    setShowVideoModal(false);
+                  }}
+                ></VideoModal>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
