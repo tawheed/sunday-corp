@@ -5,11 +5,6 @@ export const metadata = {
     "Unstoppable Sunday helps you Pause and Reflect on the last 7 days and plan your next 7 days so you can operate at high performance and build the business of your dreams.",
 };
 
-import Image from "next/image";
-import Avatar01 from "@/public/images/avatar-01.jpg";
-import Avatar02 from "@/public/images/avatar-02.jpg";
-import Avatar03 from "@/public/images/avatar-03.jpg";
-import Avatar04 from "@/public/images/avatar-04.jpg";
 import Tracking from "@/components/tracking";
 
 export default function SignUp() {

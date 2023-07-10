@@ -1,8 +1,15 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import HeroImage from "@/public/images/sunday-app-screenshot-v2.png";
+import { useState } from "react";
+import VideoModal from "./videomodal";
+import Lottie from "lottie-react";
+import animationData from "@/public/images/98813-play.json";
 
 export default function Hero() {
+  let [showVideoModal, setShowVideoModal] = useState(false);
+
   return (
     <section className="relative">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
@@ -36,6 +43,27 @@ export default function Hero() {
                   </span>
                 </Link>
               </div>
+              <div>
+                <Link
+                  className="btn text-white bg-gray-500 hover:bg-gray-600 w-full shadow-sm group"
+                  onClick={() => {
+                    setShowVideoModal(true);
+                  }}
+                  href={"#"}
+                >
+                  Watch Demo Video{" "}
+                  <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                    -&gt;
+                  </span>
+                </Link>
+                <VideoModal
+                  open={showVideoModal}
+                  url="https://tkkader.wistia.com/medias/r1f3dwsm3g"
+                  onHandleClose={() => {
+                    setShowVideoModal(false);
+                  }}
+                ></VideoModal>
+              </div>
             </div>
           </div>
           {/* Hero image */}
@@ -44,14 +72,29 @@ export default function Hero() {
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <Image
-              className="mx-auto"
-              src={HeroImage}
-              width={920}
-              height={518}
-              alt="Hero"
-              priority
-            />
+            <div className="relative group cursor-pointer">
+              <Image
+                className="mx-auto cursor-pointer"
+                src={HeroImage}
+                width={920}
+                height={518}
+                alt="Hero"
+                priority
+                onClick={() => {
+                  setShowVideoModal(true);
+                }}
+              />
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-10">
+                <Lottie
+                  animationData={animationData}
+                  className="flex justify-center items-center"
+                  loop={true}
+                  onClick={() => {
+                    setShowVideoModal(true);
+                  }}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

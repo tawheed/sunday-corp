@@ -13,6 +13,7 @@ import Pricing from "@/components/pricing";
 import Faqs from "@/components/faqs";
 import Cta from "@/components/cta";
 import Tracking from "@/components/tracking";
+import { useEffect } from "react";
 
 export default function Home() {
   return (
