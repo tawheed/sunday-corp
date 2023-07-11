@@ -34,7 +34,7 @@ export default function Cta() {
             data-aos="fade-up"
           >
             <h2 className="h2 font-hkgrotesk mb-6">
-              Become a High Performance Founder
+              Become a High Performance Person
             </h2>
             <p
               className="text-xl text-slate-500"

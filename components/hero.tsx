@@ -17,7 +17,7 @@ export default function Hero() {
           {/* Hero content */}
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="h1 font-hkgrotesk mb-6" data-aos="fade-up">
-              Become a High Performance Founder
+              Become a High Performance Person
             </h1>
             <p
               className="text-xl text-slate-500 mb-10"
