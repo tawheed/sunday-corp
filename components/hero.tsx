@@ -31,7 +31,7 @@ export default function Hero() {
               week and go into Monday with a clear intention and a plan of
               attack.
             </p>
-            <p className="text-slate-500 italic mb-10 max-w-2xl m-auto">
+            <p className="text-slate-500 italic mb-10 max-w-2xl m-auto" data-aos="fade-up">
               "Unstoppable Sunday helps me prioritize my time and week, I used
               to go through days and weeks of not getting important things
               accomplished but now it holds me accountable and helps me be
