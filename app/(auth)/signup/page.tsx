@@ -14,12 +14,12 @@ export default function SignUp() {
       <div className="pt-32 pb-12 md:pt-40 md:pb-20">
         <div className="lg:flex lg:space-x-20">
           {/* Left side */}
-          <div className="grow lg:mt-20 mb-12 lg:mb-0 flex flex-col items-center lg:items-start">
+          <div className="grow lg:mt-2 mb-12 lg:mb-0 flex flex-col items-center lg:items-start">
             {/* Headline */}
             <h1 className="h2 font-hkgrotesk mb-2 text-center lg:text-left">
               Plan Your Week
             </h1>
-            <h2 className="h4 font-hkgrotesk mb-2 text-center lg:text-left">
+            <h2 className="h4 font-hkgrotesk mb-8 text-center lg:text-left">
               & Ruthlessly Execute Through the Week
             </h2>
             <p className="mb-8 text-sm">$30/month · that's as little as $1/day · No Credit Card Required to Trial</p>
