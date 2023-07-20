@@ -16,9 +16,12 @@ export default function SignUp() {
           {/* Left side */}
           <div className="grow lg:mt-20 mb-12 lg:mb-0 flex flex-col items-center lg:items-start">
             {/* Headline */}
-            <h1 className="h2 font-hkgrotesk mb-8 text-center lg:text-left">
-              Become a High Performance Founder
+            <h1 className="h2 font-hkgrotesk mb-2 text-center lg:text-left">
+              Plan Your Week
             </h1>
+            <h2 className="h4 font-hkgrotesk mb-8 text-center lg:text-left">
+              & Ruthlessly Execute Through the Week
+            </h2>
             {/* List */}
             <ul className="inline-flex flex-col text-lg text-slate-500 space-y-3">
               <li className="flex items-center">
@@ -29,7 +32,7 @@ export default function SignUp() {
                 >
                   <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                 </svg>
-                <span>Plan Your Week</span>
+                <span>Weekly Unstoppable Sunday Planning</span>
               </li>
               <li className="flex items-center">
                 <svg
@@ -39,7 +42,7 @@ export default function SignUp() {
                 >
                   <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                 </svg>
-                <span>Execute Ruthlessly through the Week</span>
+                <span>Daily Ruthless Execution w/Pomodoro Timer</span>
               </li>
               <li className="flex items-center">
                 <svg
@@ -59,7 +62,7 @@ export default function SignUp() {
                 >
                   <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                 </svg>
-                <span>Unleash Your Full Potential</span>
+                <span>... so that you can accomplish some of your wildest goals</span>
               </li>
             </ul>
           </div>
@@ -176,7 +179,8 @@ export default function SignUp() {
                         target="_blank"
                       >
                         Terms of Service
-                      </a><br/>
+                      </a>
+                      <br />
                       and{" "}
                       <a
                         className="text-sky-500 hover:text-sky-600"

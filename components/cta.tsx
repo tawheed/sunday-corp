@@ -30,19 +30,23 @@ export default function Cta() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div
-            className="max-w-2xl mx-auto text-center pb-8"
+            className="max-w-2xl mx-auto text-center pb-4"
             data-aos="fade-up"
           >
-            <h2 className="h2 font-hkgrotesk mb-6">
-              Become a High Performance Person
+            <h1 className="h1 font-hkgrotesk mb-2" data-aos="fade-up">
+              Plan Your Week
+            </h1>
+            <h2 className="h3 font-hkgrotesk mb-6" data-aos="fade-up">
+              & Ruthlessly Execute Through the Week
             </h2>
             <p
-              className="text-xl text-slate-500"
+              className="text-xl text-slate-500 mb-10"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              Plan Your Week, Execute Ruthlessly, and Unleash Your Full
-              Potential
+              In just 15-minutes, We'll guide you in creating a plan for your
+              week and go into Monday with a clear intention and a plan of
+              attack.
             </p>
           </div>
           {/* Buttons */}
@@ -53,7 +57,7 @@ export default function Cta() {
                   className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group"
                   href="/signup"
                 >
-                  Start Free Trial{" "}
+                  Start 14-Day Free Trial{" "}
                   <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>

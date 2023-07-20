@@ -16,16 +16,26 @@ export default function Hero() {
         <div className="pt-32 md:pt-40">
           {/* Hero content */}
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="h1 font-hkgrotesk mb-6" data-aos="fade-up">
-              Become a High Performance Person
+            <h1 className="h1 font-hkgrotesk mb-2" data-aos="fade-up">
+              Plan Your Week
             </h1>
+            <h2 className="h3 font-hkgrotesk mb-6" data-aos="fade-up">
+              & Ruthlessly Execute Through the Week
+            </h2>
             <p
-              className="text-xl text-slate-500 mb-10"
+              className="text-xl text-slate-500 mb-6 max-w-2xl m-auto"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              Plan Your Week, Execute Ruthlessly, and Unleash Your Full
-              Potential
+              In just 15-minutes, We'll guide you in creating a plan for your
+              week and go into Monday with a clear intention and a plan of
+              attack.
+            </p>
+            <p className="text-slate-500 italic mb-10 max-w-2xl m-auto">
+              "Unstoppable Sunday helps me prioritize my time and week, I used
+              to go through days and weeks of not getting important things
+              accomplished but now it holds me accountable and helps me be
+              proactive about my life." - Jessalin N.
             </p>
             <div
               className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4"
@@ -37,7 +47,7 @@ export default function Hero() {
                   className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group"
                   href="/signup"
                 >
-                  Start Free Trial{" "}
+                  Start 14-Day Free Trial{" "}
                   <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
