@@ -34,7 +34,7 @@ export default function Pricing() {
             <h2 className="h3 font-hkgrotesk mb-2">$30/month</h2>
             <span className="font-hkgrotesk mb-6 inline-block bg-indigo-500/50 text-sm p-2 rounded-full">that's as little as $1/day</span>
             <p className="text-md text-slate-500 mb-6">
-              Billed Monthly · 14-Day Free Trial · Cancel Anytime · No Credit Card Required to Trial
+              Billed Monthly · 30-Day Free Trial · Cancel Anytime · No Credit Card Required to Trial
             </p>
             <div className="max-w-md mb-8 text-white text-left mx-auto">
               <div className="grid grid-cols-2 gap-x-4 leading-loose">
@@ -56,7 +56,7 @@ export default function Pricing() {
               className="btn mt-2 text-white bg-indigo-500 hover:bg-indigo-600 shadow-sm group"
               href="/signup"
             >
-              Start 14-Day Free Trial{" "}
+              Start 30-Day Free Trial{" "}
               <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                 -&gt;
               </span>
