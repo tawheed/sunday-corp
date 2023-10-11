@@ -25,7 +25,7 @@ export default function Header({ nav = true }: {
                   <Link className="font-medium text-slate-500 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://app.unstoppablesunday.com" target="_blank">Sign in</Link>
                 </li>
                 <li className="ml-3">
-                  <Link className="btn-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group" href="/signup">
+                  <Link className="btn-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group" href="https://app.unstoppablesunday.com/users/sign_up">
                     Start 30-Day Free Trial <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </Link>
                 </li>
