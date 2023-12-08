@@ -31,8 +31,7 @@ export default function Pricing() {
 
           {/* Simple Pricing */}
           <div className="max-w-3xl mx-auto text-center bg-slate-800 bg-opacity-25 rounded-full p-12">
-            <h2 className="h3 font-hkgrotesk mb-2">$30/month</h2>
-            <span className="font-hkgrotesk mb-6 inline-block bg-indigo-500/50 text-sm p-2 rounded-full">that's as little as $1/day</span>
+            <h2 className="h3 font-hkgrotesk mb-2">$10/month</h2>
             <p className="text-md text-slate-500 mb-6">
               Billed Monthly · 30-Day Free Trial · Cancel Anytime · No Credit Card Required to Trial
             </p>

@@ -22,7 +22,7 @@ export default function SignUp() {
             <h2 className="h4 font-hkgrotesk mb-8 text-center lg:text-left">
               & Ruthlessly Execute Through the Week
             </h2>
-            <p className="mb-8 text-sm">$30/month · that's as little as $1/day · No Credit Card Required to Trial</p>
+            <p className="mb-8 text-sm">$10/month · No Credit Card Required to Trial</p>
             {/* List */}
             <ul className="inline-flex flex-col text-lg text-slate-500 space-y-3">
               <li className="flex items-center">
