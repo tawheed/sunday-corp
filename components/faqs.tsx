@@ -58,14 +58,14 @@ export default function Faqs() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-hkgrotesk mb-4">Unstoppable Principles</h2>
+            <h2 className="h2 font-hkgrotesk mb-4">Frequent Questions</h2>
             <p className="text-xl text-slate-500">
-              Every Founder needs a strategy for their personal life and their
+              Everyone needs a strategy for their personal life and their
               business. When you're with us, yours will be unstoppable.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-16 hidden">
             {videos.map((video, index) => (
               <div className="flex justify-center" key={`video-${index}`}>
                 <div className="rounded-lg shadow-lg bg-slate-800">
