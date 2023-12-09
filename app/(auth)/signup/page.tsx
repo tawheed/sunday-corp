@@ -1,6 +1,6 @@
 export const metadata = {
   title:
-    "Start 30-Day Free Trial | Unstoppable Sunday - The High Performance System for Founders",
+    "Start 14-Day Free Trial | Unstoppable Sunday - The High Performance System for Founders",
   description:
     "Unstoppable Sunday helps you Pause and Reflect on the last 7 days and plan your next 7 days so you can operate at high performance and build the business of your dreams.",
 };
@@ -76,7 +76,7 @@ export default function SignUp() {
             />
             <div className="p-6 md:p-8">
               <div className="font-hkgrotesk text-xl font-bold mb-6">
-                Start 30-Day FREE Trial
+                Start 14-Day FREE Trial
               </div>
               {/* Form */}
               <form
