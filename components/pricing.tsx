@@ -33,20 +33,18 @@ export default function Pricing() {
           <div className="max-w-3xl mx-auto text-center bg-slate-800 bg-opacity-25 rounded-full p-12">
             <h2 className="h3 font-hkgrotesk mb-2">$10/month</h2>
             <p className="text-md text-slate-500 mb-6">
-              Billed Monthly · 14-Day Free Trial · Cancel Anytime · No Credit Card Required to Trial
+              Billed Monthly · Free Trial
             </p>
             <div className="max-w-md mb-8 text-white text-left mx-auto">
-              <div className="grid grid-cols-2 gap-x-4 leading-loose">
+              <div className="grid grid-cols-2 gap-x-4 leading-loose ml-8">
                 <ul className="list-disc ml-4">
                   <li>Weekly Planning</li>
-                  <li>Daily Execution Hitlist</li>
-                  <li>Pomodoro Timer</li>
+                  <li>Daily Execution</li>
                   <li>Monthly Reflections</li>
                 </ul>
                 <ul className="list-disc ml-4">
-                  <li>Unstoppable Journal</li>
                   <li>Guided Video</li>
-                  <li>Alpha Waves</li>
+                  <li>Pomodoro Timer</li>
                   <li>Weekly Reminders</li>
                 </ul>
               </div>
@@ -55,7 +53,7 @@ export default function Pricing() {
               className="btn mt-2 text-white bg-indigo-500 hover:bg-indigo-600 shadow-sm group"
               href="https://app.unstoppablesunday.com/users/sign_up"
             >
-              Start 14-Day Free Trial{" "}
+              Start Free Trial{" "}
               <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                 -&gt;
               </span>

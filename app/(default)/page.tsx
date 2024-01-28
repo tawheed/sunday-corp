@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Unstoppable Sunday - The High Performance System for Founders",
+  title: "Unstoppable Sunday - Plan Your Week & Ruthlessly Execute Through the Week",
   description:
     "Unstoppable Sunday helps you Pause and Reflect on the last 7 days and plan your next 7 days so you can operate at high performance and build the business of your dreams.",
 };

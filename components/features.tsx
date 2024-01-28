@@ -9,44 +9,44 @@ export default function Features() {
   const features = [
     {
       icon: <CalendarIcon className="w-[32px] h-[32px] "></CalendarIcon>,
-      title: "Sunday Planning",
+      title: "Weekly Planning",
       description:
-        "The 15-minute Sunday planning ritual that will set your week up for success.",
+        "You'll start with the 15-minute Sunday planning session guided by video to create your unstoppable plan for the week.",
       link: null,
     },
     {
       icon: <ListBulletIcon className="w-[32px] h-[32px] "></ListBulletIcon>,
       title: "Daily Execution",
       description:
-        "Your daily hit list with Alpha Waves and a Pomodoro Timer to execute on tasks.",
+        "You'll then be able to execute on your plan daily with the power of a Pomodoro timer and Alpha Waves playing in the background.",
       link: null,
     },
     {
       icon: <ArrowPathIcon className="w-[32px] h-[32px] "></ArrowPathIcon>,
       title: "Monthly Reflection",
       description:
-        "Express gratitude, reflect on your wins, and learn from your mistakes.",
+        "Every month, you'll be able to reflect on your progress and plan for the next month with our 15-minute Monthly Planning practice.",
       link: null,
     },
     {
       icon: <VideoCameraIcon className="w-[32px] h-[32px] "></VideoCameraIcon>,
       title: "Guided Video",
       description:
-        "Guided video instructions help you get started with each ritual.",
+        "Every Journaling practice is guided by a video instructor to help you pause, reflect, and build your Unstoppable plan through simple prompts.",
       link: null,
     },
     {
       icon: <ChartBarIcon className="w-[32px] h-[32px] "></ChartBarIcon>,
       title: "Notes",
       description:
-        "All your journaling from your rituals are saved in one place for easy access.",
+        "All your notes from your planning sessions are saved in one place for easy access across your Daily, Weekly and Monthly sessions.",
       link: null,
     },
     {
       icon: <BellAlertIcon className="w-[32px] h-[32px] "></BellAlertIcon>,
       title: "Reminders",
       description:
-        "Weekly reminders to help you stay on track with the ritual.",
+        "You'll receive a reminder every Sunday to plan for the week and every Wednesday to check in on your weekly goals so you never miss a beat.",
       link: null,
     },
   ];
@@ -71,7 +71,7 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-hkgrotesk mb-4">
-              Go Into Every Week With a Plan and Turn It Into Reality
+              Punch the Sunday Jitters in the Face with an Unstoppable Plan
             </h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">

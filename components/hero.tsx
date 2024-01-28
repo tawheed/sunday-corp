@@ -17,19 +17,19 @@ export default function Hero() {
           {/* Hero content */}
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="h1 font-hkgrotesk mb-2" data-aos="fade-up">
-              Plan Your Week
+              Go Into Every Monday
             </h1>
             <h2 className="h3 font-hkgrotesk mb-6" data-aos="fade-up">
-              & Ruthlessly Execute Through the Week
+              With an Unstoppable Plan
             </h2>
             <p
-              className="text-xl text-slate-500 mb-6 max-w-2xl m-auto"
+              className="hidden text-xl text-slate-500 mb-6 max-w-2xl m-auto"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              In just 15-minutes, We'll guide you in creating a plan for your
-              week and go into Monday with a clear intention and a plan of
-              attack.
+              In just 15-minutes, create a plan for your
+              week and go into Monday with a clear plan of
+              attack so you can accomplish some of your wildest goals.
             </p>
             <p className="text-slate-500 italic mb-10 max-w-2xl m-auto" data-aos="fade-up">
               "Unstoppable Sunday helps me prioritize my time and week, I used
@@ -47,7 +47,7 @@ export default function Hero() {
                   className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group"
                   href="https://app.unstoppablesunday.com/users/sign_up"
                 >
-                  Start 14-Day Free Trial{" "}
+                  Start Free Trial{" "}
                   <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
@@ -95,7 +95,7 @@ export default function Hero() {
                   event.preventDefault();
                 }}
               />
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-10">
+              <div className="absolute inset-0 flex items-center justify-center z-10">
                 <Lottie
                   animationData={animationData}
                   className="flex justify-center items-center"

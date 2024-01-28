@@ -44,9 +44,9 @@ export default function Cta() {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              In just 15-minutes, We'll guide you in creating a plan for your
-              week and go into Monday with a clear intention and a plan of
-              attack.
+              In just 15-minutes, create a plan for your
+              week and go into Monday with a clear plan of
+              attack so you can accomplish some of your wildest goals.
             </p>
           </div>
           {/* Buttons */}
@@ -57,7 +57,7 @@ export default function Cta() {
                   className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group"
                   href="https://app.unstoppablesunday.com/users/sign_up"
                 >
-                  Start 14-Day Free Trial{" "}
+                  Start Free Trial{" "}
                   <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
