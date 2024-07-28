@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Unstoppable Sunday - Plan Your Week & Ruthlessly Execute Through the Week",
+  title: "Unstoppable Sunday - Transform Your Life into an Unstoppable High Performance Entrepreneur",
   description:
-    "Unstoppable Sunday helps you Pause and Reflect on the last 7 days and plan your next 7 days so you can operate at high performance and build the business of your dreams.",
+    "Unstoppable Sunday implement the EXACT HABITS of the top 1% of the world's most successful CEOs use.",
 };
 
 import Hero from "@/components/hero";
