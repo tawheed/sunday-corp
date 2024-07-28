@@ -1,14 +1,38 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import Image from 'next/image'
-import Illustration from '@/public/images/features-illustration-02.svg'
-import FeaturesImage from '@/public/images/features-image.png'
+import { useState } from "react";
+import Image from "next/image";
+import Illustration from "@/public/images/features-illustration-02.svg";
+import FeaturesImage from "@/public/images/unstoppable-weekly.png";
+
+import {
+  TrophyIcon,
+  PencilIcon,
+  HandRaisedIcon
+} from "@heroicons/react/20/solid";
+
+const features = [
+  {
+    name: "Pause & Reflect.",
+    description:
+      "We're so quick to jump ahead to obsession over our problems. We'll start with pausing and reflecting on the incredible week you just had.",
+    icon: HandRaisedIcon,
+  },
+  {
+    name: "Celebrate Your Wins.",
+    description:
+      "Big or Small. High Performances celebrate their wins. We'll guide you through the process of celebrating your wins.",
+    icon: TrophyIcon,
+  },
+  {
+    name: "Top 3 Prioriites for the Week.",
+    description:
+      "We'll then guide you in setting your priorities and a clear intention for the week ahead.",
+    icon: PencilIcon,
+  },
+];
 
 export default function Features02() {
-
-  const [category, setCategory] = useState<string>('1')
-
   return (
     <section className="relative border-t border-slate-800">
       {/* Bg gradient: top */}
@@ -17,75 +41,49 @@ export default function Features02() {
         aria-hidden="true"
       />
       {/* Illustration */}
-      <div className="hidden lg:block absolute top-0 left-1/2 -translate-x-1/2 mt-40 pointer-events-none -z-10" aria-hidden="true">
-        <Image src={Illustration} className="max-w-none" width="1440" height="453" alt="Features 02 Illustration" />
+      <div
+        className="lg:block absolute top-0 left-1/2 -translate-x-1/2 mt-40 pointer-events-none -z-10"
+        aria-hidden="true"
+      >
+        <Image
+          src={Illustration}
+          className="max-w-none"
+          width="1440"
+          height="453"
+          alt="Features 02 Illustration"
+        />
       </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
-          {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-hkgrotesk">Features to help you create your best designs</h2>
-          </div>
-          {/* Box */}
-          <div className="bg-slate-800 bg-opacity-60 rounded overflow-hidden">
-            <div className="flex flex-col md:flex-row items-end md:items-start md:justify-between lg:space-x-20">
-              <div className="md:min-w-[28rem] p-6 lg:p-10">
-                {/* Filters */}
-                <div className="mb-6 lg:mb-8">
-                  <div className="flex flex-wrap -m-1.5">
-                    <button
-                      className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${category === '1' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
-                        }`}
-                      onClick={() => setCategory('1')}
-                    >
-                      Everyone
-                    </button>
-                    <button
-                      className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${category === '2' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
-                        }`}
-                      onClick={() => setCategory('2')}
-                    >
-                      Freelancers
-                    </button>
-                    <button
-                      className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${category === '3' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
-                        }`}
-                      onClick={() => setCategory('3')}
-                    >
-                      Organizations
-                    </button>
+      <div className="my-24 mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div className="lg:pr-8 lg:pt-4">
+            <div className="lg:max-w-lg">
+              <h2 className="text-base font-semibold leading-7 text-indigo-400">Weekly Planning</h2>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Go into Every Week with Certainty</p>
+              <p className="mt-6 text-lg leading-8 text-gray-300">
+              You'll start with the 15-minute Sunday planning session guided by video to create your unstoppable plan for the week.
+              </p>
+              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-300 lg:max-w-none">
+                {features.map((feature) => (
+                  <div key={feature.name} className="relative pl-9">
+                    <dt className="inline font-semibold text-white">
+                      <feature.icon aria-hidden="true" className="absolute left-1 top-1 h-5 w-5 text-indigo-500" />
+                      {feature.name}
+                    </dt>{' '}
+                    <dd className="inline">{feature.description}</dd>
                   </div>
-                </div>
-                {/* Content */}
-                <div>
-                  <div className={`${category !== '1' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Kickstart your project with these tools</h3>
-                    <div className="text-lg text-slate-500">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
-                    </div>
-                  </div>
-                  <div className={`${category !== '2' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Tech tools to kickstart freelance life</h3>
-                    <div className="text-lg text-slate-500">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
-                    </div>
-                  </div>
-                  <div className={`${category !== '3' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Share your plan and clarify project risk</h3>
-                    <div className="text-lg text-slate-500">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <Image src={FeaturesImage} className="md:max-w-none" width="480" height="414" alt="Feature" />
+                ))}
+              </dl>
             </div>
           </div>
+          <Image
+            alt="Unstopable Weekly Practice"
+            src={FeaturesImage}
+            width={2432}
+            height={1442}
+            className="w-[48rem] max-w-none rounded-xl shadow-xl sm:w-[57rem] md:-ml-4 lg:-ml-0 md:mt-12"
+          />
         </div>
       </div>
     </section>
-  )
+  );
 }

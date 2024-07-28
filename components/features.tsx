@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Illustration from "@/public/images/features-illustration.svg";
 
-import { ArrowPathIcon, BeakerIcon, BellAlertIcon, CalendarIcon, ChartBarIcon, ListBulletIcon, VideoCameraIcon } from '@heroicons/react/24/solid'
+import { ArrowPathIcon, BeakerIcon, BellAlertIcon, CalendarIcon, ChartBarIcon, ListBulletIcon, VideoCameraIcon, BookOpenIcon, BoltIcon } from '@heroicons/react/24/solid'
 
 export default function Features() {
   const features = [
@@ -49,6 +49,30 @@ export default function Features() {
         "You'll receive a reminder every Sunday to plan for the week and every Wednesday to check in on your weekly goals so you never miss a beat.",
       link: null,
     },
+
+    {
+      icon: <BeakerIcon className="w-[32px] h-[32px] "></BeakerIcon>,
+      title: "Beast Mode Challenges",
+      description:
+        "You'll receive the training to do the Beast Mode Challenges to push yourself to the next level and build the business of your dreams.",
+      link: null,
+    },
+
+    {
+      icon: <BookOpenIcon className="w-[32px] h-[32px] "></BookOpenIcon>,
+      title: "Life Planning",
+      description:
+        "You'll also receive step-by-step training on how to plan your life so you can build the life of your dreams and achieve some of your most ambitious goals.",
+      link: null,
+    },
+
+    {
+      icon: <BoltIcon className="w-[32px] h-[32px] "></BoltIcon>,
+      title: "Community",
+      description:
+        "You'll also get access to our private community of Unstoppable OS users to share your wins, get feedback, and stay accountable.",
+      link: null,
+    },
   ];
 
   return (
@@ -71,11 +95,12 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-hkgrotesk mb-4">
-              Punch the Sunday Jitters in the Face with an Unstoppable Plan
+              Purpose Built Tools, Training and Community
+
             </h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">
-                Pause, Reflect, and Execute with Certainty
+                to Become an Unstoppable Entrepreneur, Founder & CEO
               </p>
             </div>
           </div>

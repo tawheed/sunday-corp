@@ -17,25 +17,29 @@ export default function Hero() {
           {/* Hero content */}
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="h1 font-hkgrotesk mb-2" data-aos="fade-up">
-              Go Into Every Monday
+              Transform Your Life
             </h1>
             <h2 className="h3 font-hkgrotesk mb-6" data-aos="fade-up">
-              With an Unstoppable Plan
+              into an Unstoppable High Performance Entrepreneur
             </h2>
             <p
               className="hidden text-xl text-slate-500 mb-6 max-w-2xl m-auto"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              In just 15-minutes, create a plan for your
-              week and go into Monday with a clear plan of
-              attack so you can accomplish some of your wildest goals.
+              In just 15-minutes, create a plan for your week and go into Monday
+              with a clear plan of attack so you can accomplish some of your
+              wildest goals.
             </p>
-            <p className="text-slate-500 italic mb-10 max-w-2xl m-auto" data-aos="fade-up">
-              "Unstoppable Sunday helps me prioritize my time and week, I used
-              to go through days and weeks of not getting important things
-              accomplished but now it holds me accountable and helps me be
-              proactive about my life." - Jessalin N.
+            <p
+              className="text-slate-500 mb-10 max-w-2xl m-auto"
+              data-aos="fade-up"
+            >
+              Tired of trying so hard only to barely inch ahead? Implement the EXACT
+              HABITS of the top 1% of the world's most successful CEOs use. The Unstoppable Sunday
+              tools will help you how to develop the mindset and habits of
+              the world's most successful Founders. It's how you achieve
+              business success while protecting your well-being.
             </p>
             <div
               className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4"

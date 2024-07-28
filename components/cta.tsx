@@ -33,20 +33,18 @@ export default function Cta() {
             className="max-w-2xl mx-auto text-center pb-4"
             data-aos="fade-up"
           >
-            <h1 className="h1 font-hkgrotesk mb-2" data-aos="fade-up">
-              Plan Your Week
+            <h1 className="h2 font-hkgrotesk mb-2" data-aos="fade-up">
+            Transform Your Life
             </h1>
             <h2 className="h3 font-hkgrotesk mb-6" data-aos="fade-up">
-              & Ruthlessly Execute Through the Week
+              & Ruthlessly Execute on Your Goals
             </h2>
             <p
               className="text-xl text-slate-500 mb-10"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              In just 15-minutes, create a plan for your
-              week and go into Monday with a clear plan of
-              attack so you can accomplish some of your wildest goals.
+              Implement the EXACT HABITS of the top 1% of the world's most successful CEOs use. Adopt the mindset and habits of the world's most successful Founders.
             </p>
           </div>
           {/* Buttons */}
