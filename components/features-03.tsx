@@ -21,7 +21,7 @@ const features = [
   {
     name: "Pomodoro Timer.",
     description:
-      "With the built-in Pomodoro timer, you'll be able to focus on your tasks for 25 minutes and then take a 5-minute break.",
+      "With the built-in Pomodoro timer, you'll be able to focus on your tasks for 25 minutes and then take a 5-minute break. Don't worry, the intervals are completely configurable to fit your style.",
     icon: ClockIcon,
   },
   {

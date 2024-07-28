@@ -44,7 +44,7 @@ export default function Cta() {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              Implement the EXACT HABITS of the top 1% of the world's most successful CEOs use. Adopt the mindset and habits of the world's most successful Founders.
+              Adopt the mindset and habits of the world's most successful Founders.
             </p>
           </div>
           {/* Buttons */}

@@ -37,7 +37,7 @@ export default function Hero() {
             >
               Tired of trying so hard only to barely inch ahead? Implement the EXACT
               HABITS of the top 1% of the world's most successful CEOs use. The Unstoppable Sunday
-              tools will help you how to develop the mindset and habits of
+              platform helps develop the mindset and habits of
               the world's most successful Founders. It's how you achieve
               business success while protecting your well-being.
             </p>

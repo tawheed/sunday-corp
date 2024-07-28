@@ -21,7 +21,7 @@ const features = [
   {
     name: "Celebrate Your Wins.",
     description:
-      "Big or Small. High Performances celebrate their wins. We'll guide you through the process of celebrating your wins.",
+      "Big or Small. High Performers celebrate their wins. This is how you build momentum. We'll guide you through the process of celebrating your wins.",
     icon: TrophyIcon,
   },
   {
