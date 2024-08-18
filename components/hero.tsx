@@ -20,7 +20,8 @@ export default function Hero() {
               Transform Your Life
             </h1>
             <h2 className="h3 font-hkgrotesk mb-6" data-aos="fade-up">
-              into an Unstoppable High Performance Entrepreneur
+            & Ruthlessly Execute on Your Goals
+
             </h2>
             <p
               className="hidden text-xl text-slate-500 mb-6 max-w-2xl m-auto"

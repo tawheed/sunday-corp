@@ -16,6 +16,7 @@ import Faqs from "@/components/faqs";
 import Cta from "@/components/cta";
 import Tracking from "@/components/tracking";
 import { useEffect } from "react";
+import Manifesto from "@/components/manifesto";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
       <Features03 />
       <Features04 />
       <Features />
-
+      <Manifesto />
       <Pricing />
       <Faqs />
       <Cta />
