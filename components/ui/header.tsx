@@ -26,7 +26,7 @@ export default function Header({ nav = true }: {
                 </li>
                 <li className="ml-3">
                   <Link className="btn-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group" href="https://app.unstoppablesunday.com/users/sign_up">
-                    Start Free Trial <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                    Start Free Trial <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </Link>
                 </li>
               </ul>

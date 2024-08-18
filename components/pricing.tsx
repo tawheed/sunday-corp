@@ -56,7 +56,7 @@ export default function Pricing() {
               href="https://app.unstoppablesunday.com/users/sign_up"
             >
               Start Free Trial{" "}
-              <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+              <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                 -&gt;
               </span>
             </Link>

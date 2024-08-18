@@ -88,7 +88,7 @@ export default function Features04() {
             src={FeaturesImage}
             width={2432}
             height={1442}
-            className="w-[48rem] max-w-none rounded-xl shadow-xl sm:w-[57rem] md:-ml-4 lg:-ml-0 md:mt-12"
+            className="w-[48rem] max-w-none sm:w-[57rem] md:-ml-4 lg:-ml-0 md:mt-12"
           />
         </div>
         <div
