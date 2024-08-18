@@ -74,8 +74,7 @@ export default function Manifesto() {
                   The Unstoppable Movement
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                  On a mission to empower Unstoppable Entrepreneurs, Founders &
-                  CEOs
+                  On a mission to help you become unstoppable and accomplish your wildest goals.
                 </h1>
                 <div className="max-w-xl">
                   <p className="mt-6">
