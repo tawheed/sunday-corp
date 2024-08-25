@@ -33,7 +33,7 @@ export default function Pricing() {
           <div className="max-w-3xl mx-auto text-center bg-slate-800 bg-opacity-25 rounded-full p-12">
             <h2 className="h3 font-hkgrotesk mb-2">$29/month</h2>
             <p className="text-md text-slate-500 mb-6">
-              Billed Monthly · Free 45-Day Trial · No Credit Card Required
+              Billed Monthly · Free 30-Day Trial · No Credit Card Required
             </p>
             <div className="max-w-md mb-8 text-white text-left mx-auto">
               <div className="grid grid-cols-2 gap-x-4 leading-loose ml-8">
