@@ -37,7 +37,6 @@ export default function Testimonials() {
             {testimonials.map((testimonial, index) => (
               <article
                 className="h-full flex flex-col items-center text-center"
-                data-aos="fade-up"
               >
                 <header className="mb-3">
                   <Image

@@ -2,13 +2,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import HeroImage from "@/public/images/sunday-app-screenshot-v2.png";
-import { useState } from "react";
-import VideoModal from "./videomodal";
+import { useEffect, useState } from "react";
+import ReactPlayer from "react-player";
 import Lottie from "lottie-react";
 import animationData from "@/public/images/98813-play.json";
+import { Mixpanel } from "./common/mixpanel";
 
 export default function Hero() {
-  let [showVideoModal, setShowVideoModal] = useState(false);
+  let [showDemoVideo, setShowDemoVideo] = useState(false);
+  const url = "https://tkkader.wistia.com/medias/r1f3dwsm3g";
+
+  useEffect(() => {
+    if (showDemoVideo) {
+      Mixpanel.track("Watch Demo Video");
+    }
+  } , [showDemoVideo]);
 
   return (
     <section className="relative">
@@ -16,36 +24,63 @@ export default function Hero() {
         <div className="pt-32 md:pt-40">
           {/* Hero content */}
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="h1 font-hkgrotesk mb-2" data-aos="fade-up">
-              Transform Your Life
+            <h1 className="h1 font-hkgrotesk mb-2">
+              Daily, Weekly & Monthly Guided Journaling
             </h1>
-            <h2 className="h3 font-hkgrotesk mb-6" data-aos="fade-up">
-            & Ruthlessly Execute on Your Goals
+            <h2 className="h3 font-hkgrotesk mb-6">For Unstoppable Founders</h2>
+            <p className="text-xl text-gray-500 font-bold mb-12 max-w-2xl m-auto">
+              Sunday is a guided journaling application for Unstoppable Founders
+              and Entrepreneurs. It helps you reflect on your past week, express
+              gratitude for your wins, set goals for the upcoming week, and
+              execute every day with focus and certainty.
+            </p>
+            {/* Hero image */}
+            <div>
+              <div className="relative group cursor-pointer">
+                {!showDemoVideo ? (
+                  <>
+                    <Image
+                      className="mx-auto cursor-pointer"
+                      src={HeroImage}
+                      width={920}
+                      height={518}
+                      alt="Hero"
+                      priority
+                      onClick={(event) => {
+                        setShowDemoVideo(true);
+                        event.preventDefault();
+                      }}
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center z-10">
+                      <Lottie
+                        animationData={animationData}
+                        className="flex justify-center items-center"
+                        loop={true}
+                        onClick={() => {
+                          setShowDemoVideo(true);
+                        }}
+                      />
+                    </div>
+                  </>
+                ) : (
+                  <div className="overflow-hidden bg-gray-800 rounded-lg shadow-md mt-6 mb-12">
+                    <div className="player-wrapper rounded-md">
+                      <ReactPlayer
+                        url={url}
+                        className="react-player"
+                        width="100%"
+                        height="100%"
+                        playing={true}
+                        controls={true}
+                      />
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
 
-            </h2>
-            <p
-              className="hidden text-xl text-slate-500 mb-6 max-w-2xl m-auto"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              In just 15-minutes, create a plan for your week and go into Monday
-              with a clear plan of attack so you can accomplish some of your
-              wildest goals.
-            </p>
-            <p
-              className="text-slate-500 mb-10 max-w-2xl m-auto"
-              data-aos="fade-up"
-            >
-              Tired of trying so hard only to barely inch ahead? Implement the EXACT
-              HABITS of the top 1% of the world's most successful CEOs use. The Unstoppable Sunday
-              platform helps you develop the mindset and habits of
-              the world's most successful Founders. It's how you achieve
-              business success while protecting your well-being.
-            </p>
             <div
               className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4"
-              data-aos="fade-up"
-              data-aos-delay="200"
             >
               <div>
                 <Link
@@ -57,58 +92,6 @@ export default function Hero() {
                     -&gt;
                   </span>
                 </Link>
-              </div>
-              <div>
-                <Link
-                  className="btn text-white bg-gray-500 hover:bg-gray-600 w-full shadow-sm group"
-                  onClick={() => {
-                    setShowVideoModal(true);
-                  }}
-                  href={"#"}
-                >
-                  Watch Demo Video{" "}
-                  <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                    -&gt;
-                  </span>
-                </Link>
-                <VideoModal
-                  open={showVideoModal}
-                  url="https://tkkader.wistia.com/medias/r1f3dwsm3g"
-                  onHandleClose={() => {
-                    setShowVideoModal(false);
-                  }}
-                ></VideoModal>
-              </div>
-            </div>
-          </div>
-          {/* Hero image */}
-          <div
-            className="pt-16 md:pt-20"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
-            <div className="relative group cursor-pointer">
-              <Image
-                className="mx-auto cursor-pointer"
-                src={HeroImage}
-                width={920}
-                height={518}
-                alt="Hero"
-                priority
-                onClick={(event) => {
-                  setShowVideoModal(true);
-                  event.preventDefault();
-                }}
-              />
-              <div className="absolute inset-0 flex items-center justify-center z-10">
-                <Lottie
-                  animationData={animationData}
-                  className="flex justify-center items-center"
-                  loop={true}
-                  onClick={() => {
-                    setShowVideoModal(true);
-                  }}
-                />
               </div>
             </div>
           </div>
