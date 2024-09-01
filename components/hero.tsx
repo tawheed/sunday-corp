@@ -16,7 +16,7 @@ export default function Hero() {
     if (showDemoVideo) {
       Mixpanel.track("Watch Demo Video");
     }
-  } , [showDemoVideo]);
+  }, [showDemoVideo]);
 
   return (
     <section className="relative">
@@ -29,10 +29,10 @@ export default function Hero() {
             </h1>
             <h2 className="h3 font-hkgrotesk mb-6">For Unstoppable Founders</h2>
             <p className="text-xl text-gray-500 font-bold mb-12 max-w-2xl m-auto">
-              Sunday is a guided journaling application for Unstoppable Founders
-              and Entrepreneurs. It helps you reflect on your past week, express
-              gratitude for your wins, set goals for the upcoming week, and
-              execute every day with focus and certainty.
+              Sunday helps you reflect on your past week, express gratitude for
+              your wins (big or small), set goals for the upcoming week, and
+              execute every day with focus & certainty -- so you can work toward
+              accomplishing your wildest entrepreneurial goals.
             </p>
             {/* Hero image */}
             <div>
@@ -79,17 +79,22 @@ export default function Hero() {
               </div>
             </div>
 
-            <div
-              className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4"
-            >
+            <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <div>
                 <Link
-                  className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group"
+                  className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group flex flex-col items-center justify-center"
                   href="https://app.unstoppablesunday.com/users/sign_up"
                 >
-                  Start 30-Day Free Trial{" "}
-                  <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                    -&gt;
+                  <span className="font-bold text-lg">
+                    Start 30-Day Free Trial{" "}
+                    <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                      -&gt;
+                    </span>
+                  </span>
+
+                  <span className="text-xs">
+                    start working toward accomplishing your wildest
+                    entreprenurial goals
                   </span>
                 </Link>
               </div>

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Illustration from "@/public/images/pricing-illustration.svg";
 
 export default function Pricing() {
-
   return (
     <section className="relative">
       {/* Illustration */}
@@ -52,12 +51,19 @@ export default function Pricing() {
               </div>
             </div>{" "}
             <Link
-              className="btn mt-2 text-white bg-indigo-500 hover:bg-indigo-600 shadow-sm group"
+              className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group flex flex-col items-center justify-center"
               href="https://app.unstoppablesunday.com/users/sign_up"
             >
-              Start 30-Day Free Trial{" "}
-              <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                -&gt;
+              <span className="font-bold text-lg">
+                Start 30-Day Free Trial{" "}
+                <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                  -&gt;
+                </span>
+              </span>
+
+              <span className="text-xs">
+                start working toward accomplishing your wildest entreprenurial
+                goals
               </span>
             </Link>
           </div>

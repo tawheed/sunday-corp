@@ -51,38 +51,22 @@ export default function Cta() {
           <div className="text-center">
             <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <div data-aos="fade-up" data-aos-delay="100">
-                <Link
-                  className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group"
+              <Link
+                  className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group flex flex-col items-center justify-center"
                   href="https://app.unstoppablesunday.com/users/sign_up"
                 >
-                  Start 30-Day Free Trial{" "}
-                  <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                    -&gt;
+                  <span className="font-bold text-lg">
+                    Start 30-Day Free Trial{" "}
+                    <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                      -&gt;
+                    </span>
                   </span>
+
+                  <span className="text-xs">start working toward accomplishing your wildest entreprenurial goals</span>
                 </Link>
+
               </div>
-              <div data-aos="fade-up" data-aos-delay="100">
-                <Link
-                  className="btn text-white bg-gray-500 hover:bg-gray-600 w-full shadow-sm group"
-                  onClick={(event) => {
-                    setShowVideoModal(true);
-                    event.preventDefault();
-                  }}
-                  href={"#"}
-                >
-                  Watch Demo Video{" "}
-                  <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                    -&gt;
-                  </span>
-                </Link>
-                <VideoModal
-                  open={showVideoModal}
-                  url="https://tkkader.wistia.com/medias/r1f3dwsm3g"
-                  onHandleClose={() => {
-                    setShowVideoModal(false);
-                  }}
-                ></VideoModal>
-              </div>
+
             </div>
           </div>
         </div>
