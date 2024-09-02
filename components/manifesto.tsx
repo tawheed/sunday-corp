@@ -108,7 +108,7 @@ export default function Manifesto() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-16 hidden">
             {videos.map((video, index) => (
               <div className="flex justify-center" key={`video-${index}`}>
                 <div className="rounded-lg shadow-lg bg-slate-800">
