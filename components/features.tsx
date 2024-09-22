@@ -3,7 +3,17 @@
 import Image from "next/image";
 import Illustration from "@/public/images/features-illustration.svg";
 
-import { ArrowPathIcon, BeakerIcon, BellAlertIcon, CalendarIcon, ChartBarIcon, ListBulletIcon, VideoCameraIcon, BookOpenIcon, BoltIcon } from '@heroicons/react/24/solid'
+import {
+  ArrowPathIcon,
+  BeakerIcon,
+  BellAlertIcon,
+  CalendarIcon,
+  ChartBarIcon,
+  ListBulletIcon,
+  VideoCameraIcon,
+  BookOpenIcon,
+  BoltIcon,
+} from "@heroicons/react/24/solid";
 
 export default function Features() {
   const features = [
@@ -96,21 +106,31 @@ export default function Features() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-hkgrotesk mb-4">
               Purpose Built Tools, Training and Community
-
             </h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">
                 to Become an Unstoppable Entrepreneur, Founder & CEO
               </p>
+            </div>{" "}
+            <div className="mt-10 flex items-center justify-center">
+              <a
+                href="https://app.unstoppablesunday.com/users/sign_up"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Get started &rarr;
+              </a>
             </div>
           </div>
           <div className="">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-4">
               {features.map((feature, index) => (
-                <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded" key={`feature-${index}`}>
+                <div
+                  className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded"
+                  key={`feature-${index}`}
+                >
                   {feature.icon && (
                     <div className="w-[56px] h-[56px] rounded-full bg-indigo-500 mb-3 flex items-center justify-center">
-                    {feature.icon}
+                      {feature.icon}
                     </div>
                   )}
 

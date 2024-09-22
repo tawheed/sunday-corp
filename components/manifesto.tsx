@@ -100,7 +100,7 @@ export default function Manifesto() {
                 <a
                   href="https://book.tkkader.com"
                   target="_blank"
-                  className="text-base font-semibold leading-7 text-yellow-400"
+                  className="text-base font-semibold leading-7 text-yellow-400 hover:underline"
                 >
                   Read the book <span aria-hidden="true">&rarr;</span>
                 </a>

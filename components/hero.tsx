@@ -31,8 +31,7 @@ export default function Hero() {
             <p className="text-xl text-gray-500 font-bold mb-12 max-w-2xl m-auto">
               Sunday helps you reflect on your past week, express gratitude for
               your wins (big or small), set goals for the upcoming week, and
-              execute every day with focus & certainty -- so you can work toward
-              accomplishing your wildest entrepreneurial goals.
+              execute every day with focus & certainty.
             </p>
             {/* Hero image */}
             <div>
