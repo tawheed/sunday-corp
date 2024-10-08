@@ -56,7 +56,7 @@ export default function Manifesto() {
             <h2 className="h2 font-hkgrotesk mb-4">
               Based on Battle-Hardened Unstoppable Principles
             </h2>
-            <p className="text-xl text-slate-500">
+            <p className="text-xl text-slate-300">
               Everyone needs a strategy for their personal life and their
               business. When you're with us, yours will be unstoppable.
             </p>

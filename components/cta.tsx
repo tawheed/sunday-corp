@@ -34,13 +34,13 @@ export default function Cta() {
             data-aos="fade-up"
           >
             <h1 className="h2 font-hkgrotesk mb-2" data-aos="fade-up">
-            Daily, Weekly & Monthly Guided Journaling
+              Build an Unstoppable Plan For Your Week
             </h1>
-            <h2 className="h3 font-hkgrotesk mb-6" data-aos="fade-up">
+            <h2 className="h3 font-hkgrotesk mb-6 hidden" data-aos="fade-up">
               For Unstoppable Founders
             </h2>
             <p
-              className="text-xl text-slate-500 mb-10"
+              className="text-xl text-slate-300 mb-2"
               data-aos="fade-up"
               data-aos-delay="100"
             >
@@ -51,22 +51,26 @@ export default function Cta() {
           <div className="text-center">
             <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <div data-aos="fade-up" data-aos-delay="100">
-              <Link
-                  className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group flex flex-col items-center justify-center"
-                  href="https://app.unstoppablesunday.com/users/sign_up"
-                >
-                  <span className="font-bold text-lg">
-                    Start 30-Day Free Trial{" "}
-                    <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                      -&gt;
-                    </span>
-                  </span>
+                <div className="w-[600px] max-x-md mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                  <div className="w-full">
+                    <Link
+                      className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group flex flex-col items-center justify-center"
+                      href="https://app.unstoppablesunday.com/users/sign_up"
+                    >
+                      <span className="font-bold text-2xl">
+                        Help Me Plan My Week{" "}
+                        <span className="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                          -&gt;
+                        </span>
+                      </span>
 
-                  <span className="text-xs">start working toward accomplishing your wildest entreprenurial goals</span>
-                </Link>
-
+                      <span className="text-sm">
+                        30-Day Free Trial, then Just $29/month
+                      </span>
+                    </Link>
+                  </div>
+                </div>
               </div>
-
             </div>
           </div>
         </div>

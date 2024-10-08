@@ -60,29 +60,29 @@ export default function Features() {
       link: null,
     },
 
-    {
-      icon: <BeakerIcon className="w-[32px] h-[32px] "></BeakerIcon>,
-      title: "Beast Mode Challenges",
-      description:
-        "You'll receive the training to do the Beast Mode Challenges to push yourself to the next level and build the business of your dreams.",
-      link: null,
-    },
+    // {
+    //   icon: <BeakerIcon className="w-[32px] h-[32px] "></BeakerIcon>,
+    //   title: "Beast Mode Challenges",
+    //   description:
+    //     "You'll receive the training to do the Beast Mode Challenges to push yourself to the next level and build the business of your dreams.",
+    //   link: null,
+    // },
 
-    {
-      icon: <BookOpenIcon className="w-[32px] h-[32px] "></BookOpenIcon>,
-      title: "Life Planning",
-      description:
-        "You'll also receive step-by-step training on how to plan your life so you can build the life of your dreams and achieve some of your most ambitious goals.",
-      link: null,
-    },
+    // {
+    //   icon: <BookOpenIcon className="w-[32px] h-[32px] "></BookOpenIcon>,
+    //   title: "Life Planning",
+    //   description:
+    //     "You'll also receive step-by-step training on how to plan your life so you can build the life of your dreams and achieve some of your most ambitious goals.",
+    //   link: null,
+    // },
 
-    {
-      icon: <BoltIcon className="w-[32px] h-[32px] "></BoltIcon>,
-      title: "Community",
-      description:
-        "You'll also get access to our private community of Unstoppable OS users to share your wins, get feedback, and stay accountable.",
-      link: null,
-    },
+    // {
+    //   icon: <BoltIcon className="w-[32px] h-[32px] "></BoltIcon>,
+    //   title: "Community",
+    //   description:
+    //     "You'll also get access to our private community of Unstoppable OS users to share your wins, get feedback, and stay accountable.",
+    //   link: null,
+    // },
   ];
 
   return (
@@ -105,11 +105,11 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-hkgrotesk mb-4">
-              Purpose Built Tools, Training and Community
+              Purpose Built Guided Journaling Tools
             </h2>
             <div className="max-w-2xl mx-auto">
-              <p className="text-xl text-slate-500">
-                to Become an Unstoppable Entrepreneur, Founder & CEO
+              <p className="text-xl text-slate-300 font-bold">
+               To Help You Accomplish Some of Your Wildest Goals
               </p>
             </div>{" "}
             <div className="mt-10 flex items-center justify-center">
@@ -117,7 +117,7 @@ export default function Features() {
                 href="https://app.unstoppablesunday.com/users/sign_up"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Get started &rarr;
+                Help Me Plan My Week &rarr;
               </a>
             </div>
           </div>
