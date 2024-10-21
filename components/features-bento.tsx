@@ -50,7 +50,7 @@ export default function FeaturesBento() {
                 <Image
                   alt="Product screenshot"
                   src={DailyFeaturesImage}
-                  className="h-80 object-cover object-left bg-black"
+                  className="h-80 object-contain object-center bg-gray-600/20"
                 />
                 <div className="p-10">
                   <h3 className="text-sm/4 font-semibold text-gray-400">
@@ -72,7 +72,7 @@ export default function FeaturesBento() {
                 <Image
                   alt="Product screenshot"
                   src={WeeklyFeaturesImage}
-                  className="h-80 object-cover object-right bg-black"
+                  className="h-80 object-contain object-right bg-gray-600/20"
                 />
                 <div className="p-10">
                   <h3 className="text-sm/4 font-semibold text-gray-400">
@@ -93,7 +93,7 @@ export default function FeaturesBento() {
                 <img
                   alt=""
                   src="https://tailwindui.com/plus/img/component-images/bento-02-security.png"
-                  className="h-80 object-cover object-center"
+                  className="h-80 object-contain object-center"
                 />
                 <div className="p-10">
                   <h3 className="text-sm/4 font-semibold text-gray-400">
@@ -115,7 +115,7 @@ export default function FeaturesBento() {
                 <Image
                   alt="Product screenshot"
                   src={MonthlyFeaturesImage}
-                  className="h-80 object-cover object-left bg-black"
+                  className="h-80 object-contain object-center bg-gray-600/20"
                 />
                 <div className="p-10">
                   <h3 className="text-sm/4 font-semibold text-gray-400">
@@ -136,6 +136,7 @@ export default function FeaturesBento() {
           </div>
         </div>
       </div>
+
     </section>
   );
 }
