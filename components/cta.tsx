@@ -29,28 +29,21 @@ export default function Cta() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div
-            className="max-w-2xl mx-auto text-center pb-4"
-            data-aos="fade-up"
-          >
-            <h1 className="h2 font-hkgrotesk mb-2" data-aos="fade-up">
+          <div className="max-w-2xl mx-auto text-center pb-4">
+            <h1 className="h2 font-hkgrotesk mb-2">
               Build an Unstoppable Plan For Your Week
             </h1>
-            <h2 className="h3 font-hkgrotesk mb-6 hidden" data-aos="fade-up">
+            <h2 className="h3 font-hkgrotesk mb-6 hidden">
               For Unstoppable Founders
             </h2>
-            <p
-              className="text-xl text-slate-300 mb-2"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+            <p className="text-xl text-slate-300 mb-2" data-aos-delay="100">
               Express Gratitude, Set Goals, and Execute Every Day with Focus.
             </p>
           </div>
           {/* Buttons */}
           <div className="text-center">
             <div className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-              <div data-aos="fade-up" data-aos-delay="100">
+              <div data-aos-delay="100">
                 <div className="w-[600px] max-x-md mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
                   <div className="w-full">
                     <Link

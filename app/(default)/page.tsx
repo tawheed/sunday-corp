@@ -17,6 +17,7 @@ import Cta from "@/components/cta";
 import Tracking from "@/components/tracking";
 import { useEffect } from "react";
 import Manifesto from "@/components/manifesto";
+import FeaturesBento from "@/components/features-bento";
 
 export default function Home() {
   return (
@@ -25,9 +26,10 @@ export default function Home() {
       <Hero />
       <Testimonials />
       <Features02 />
-      <Features03 />
-      <Features04 />
-      <Features />
+      <FeaturesBento />
+      {/* <Features03 /> */}
+      {/* <Features04 /> */}
+      {/* <Features /> */}
       <Manifesto />
       <Pricing />
       <Faqs />

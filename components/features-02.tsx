@@ -10,25 +10,32 @@ import {
   PencilIcon,
   HandRaisedIcon,
 } from "@heroicons/react/20/solid";
+import { CalendarDaysIcon } from "@heroicons/react/24/solid";
 
 const features = [
   {
     name: "Pause & Reflect.",
     description:
-      "We're so quick to jump ahead to obsession over our problems. We'll start with pausing and reflecting on the incredible week you just had.",
+      "We're so quick to jump ahead to obsession over our problems. You'll start with pausing and reflecting on the incredible week you just had.",
     icon: HandRaisedIcon,
   },
   {
     name: "Celebrate Your Wins.",
     description:
-      "Big or Small. High Performers celebrate their wins. This is how you build momentum. We'll guide you through the process of celebrating your wins.",
+      "Big or Small. It's important for you to celebrate your wins. This is how you build momentum. You'll then be guided to celebrate your wins.",
     icon: TrophyIcon,
   },
   {
     name: "Top 3 Prioriites for the Week.",
     description:
-      "We'll then guide you in setting your priorities and a clear intention for the week ahead.",
+      "You'll then be guided in setting your priorities and a clear intention for the week ahead.",
     icon: PencilIcon,
+  },
+  {
+    name: "Own Your Time.",
+    description:
+      "Finally, you'll be guided in looking at your calendar for the upcomign week to ensure your time commitments match your priorities.",
+    icon: CalendarDaysIcon,
   },
 ];
 
@@ -53,21 +60,18 @@ export default function Features02() {
           alt="Features 02 Illustration"
         />
       </div>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="my-24 mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-24">
+        {/* Section header */}
+        <div className="max-w-3xl mx-auto text-center pb-6 md:pb-6">
+          <h2 className="h2 font-hkgrotesk">
+            The 15-minute Sunday Planning Practice
+          </h2>
+        </div>
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-400">
-                Weekly Planning
-              </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Go into Every Week with Certainty
-              </p>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
-                You'll start with the 15-minute Sunday planning session guided
-                by video to create your unstoppable plan for the week.
-              </p>
-              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-300 lg:max-w-none">
+              <p className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-4xl"></p>
+              <dl className="mt-6 max-w-xl space-y-8 text-md leading-7 text-gray-300 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-white">
@@ -96,7 +100,7 @@ export default function Features02() {
             src={FeaturesImage}
             width={2432}
             height={1442}
-            className="w-[48rem] max-w-none sm:w-[57rem] md:-ml-4 lg:-ml-0 md:mt-12"
+            className="w-[48rem] max-w-none sm:w-[57rem] md:-ml-4 lg:-ml-0"
           />
         </div>
       </div>

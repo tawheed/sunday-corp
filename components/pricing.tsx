@@ -21,7 +21,7 @@ export default function Pricing() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 font-hkgrotesk mb-4">
-              Become Unstoppable One Sunday at a Time
+              Start Your Free 30-Day Trial
             </h2>
             <p className="text-xl text-slate-500">
               Plan Your Week & Ruthlessly Execute Through the Week
@@ -40,13 +40,13 @@ export default function Pricing() {
                   <li>Weekly Planning</li>
                   <li>Daily Execution</li>
                   <li>Monthly Reflections</li>
-                  
+
                 </ul>
                 <ul className="list-disc ml-4">
                   <li>Guided Video</li>
                   <li>Pomodoro Timer</li>
                   <li>Weekly Reminders</li>
-                  
+
                 </ul>
               </div>
             </div>{" "}
