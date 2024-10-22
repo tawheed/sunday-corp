@@ -51,13 +51,12 @@ export default function Hero() {
             <h1 className="h1 font-hkgrotesk mb-2">
               Build an Upstoppable Plan for Your Week
             </h1>
-            <h2 className="h3 font-hkgrotesk mb-6 hidden">
-              For Unstoppable Founders
+            <h2 className="h4 py-4 font-hkgrotesk">
+              Accomplish More, Stress Less, and Live Your Best Life
             </h2>
-            <p className="mt-4 text-xl text-gray-600 font-bold mb-12 max-w-2xl m-auto">
+            <p className="mt-2 text-xl text-gray-400 font-semibold mb-12 max-w-2xl m-auto">
               Unstoppable helps you reflect on your past week, express
-              gratitude, and go into every week with an unstoppable plan so you
-              can accomplish your wildest goals with certainty.
+              gratitude, and go into every week with an unstoppable plan.
             </p>
             {/* Hero image */}
             <div>
@@ -129,7 +128,7 @@ export default function Hero() {
               </dl>
             </div>
 
-            <div className="w-[600px] max-x-md mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <div className="w-full sm:w-[600px] max-x-md mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <div className="w-full">
                 <Link
                   className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group flex flex-col items-center justify-center"

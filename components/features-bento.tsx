@@ -76,14 +76,14 @@ export default function FeaturesBento() {
                 />
                 <div className="p-10">
                   <h3 className="text-sm/4 font-semibold text-gray-400">
-                    Journaling & Guided Video
+                    Guided Video
                   </h3>
                   <p className="mt-2 text-lg/7 font-bold tracking-tight text-white">
-                    You'll Be Fully Supported
+                    Step-by-Step Instructions
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-400">
-                    Unstoppable Sunday provides you with guided videos to help
-                    you learn how to plan your week and journal your progress.
+                    Unstoppable Sunday provides you with guided videos for each of
+                    the Weekly and Monthly planning practices.
                   </p>
                 </div>
               </div>
