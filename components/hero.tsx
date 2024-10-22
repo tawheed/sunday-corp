@@ -56,7 +56,7 @@ export default function Hero() {
             </h2>
             <p className="mt-2 text-xl text-gray-400 font-semibold mb-12 max-w-2xl m-auto">
               Unstoppable helps you reflect on your past week, express
-              gratitude, and go into every week with an unstoppable plan.
+              gratitude, and go into every week with a plan through guided video and journaling.
             </p>
             {/* Hero image */}
             <div>
