@@ -49,14 +49,14 @@ export default function Hero() {
           {/* Hero content */}
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="h1 font-hkgrotesk mb-2">
-              Build an Upstoppable Plan for Your Week
+              Build an Unstoppable Plan for Your Week
             </h1>
             <h2 className="h4 py-4 font-hkgrotesk">
-              Accomplish More, Stress Less, and Live Your Best Life
+              Accomplish More, Stress Less, and Drive High Performance
             </h2>
             <p className="mt-2 text-xl text-gray-400 font-semibold mb-12 max-w-2xl m-auto">
-              Unstoppable helps you reflect on your past week, express
-              gratitude, and go into every week with a plan through guided video and journaling.
+              Unstoppable Sunday helps Founders reflect on your past week, express
+              gratitude, and go into every week with a plan through guided journaling.
             </p>
             {/* Hero image */}
             <div>

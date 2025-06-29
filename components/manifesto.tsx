@@ -98,7 +98,7 @@ export default function Manifesto() {
               </div>
               <div className="mt-10 flex">
                 <a
-                  href="https://book.tkkader.com"
+                  href="https://www.amazon.com/How-Punch-Sunday-Jitters-Face-ebook/dp/B0BFQ8XYZG/"
                   target="_blank"
                   className="text-base font-semibold leading-7 text-yellow-400 hover:underline"
                 >

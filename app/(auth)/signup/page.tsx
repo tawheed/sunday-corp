@@ -2,7 +2,7 @@ export const metadata = {
   title:
     "Start Free Trial | Unstoppable Sunday - Plan Your Week & Ruthlessly Execute Through the Week",
   description:
-    "Unstoppable Sunday helps you Pause and Reflect on the last 7 days and plan your next 7 days so you can operate at high performance and build the business of your dreams.",
+    "Unstoppable Sunday helps Founders Pause and Reflect on the last 7 days and plan your next 7 days so you can operate at high performance and build the business of your dreams.",
 };
 
 import Tracking from "@/components/tracking";

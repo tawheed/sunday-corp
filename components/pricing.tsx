@@ -24,7 +24,7 @@ export default function Pricing() {
               Start Your Free 30-Day Trial
             </h2>
             <p className="text-xl text-slate-500">
-              Plan Your Week & Ruthlessly Execute Through the Week
+              Go into Every Week with Clarity and Confidence
             </p>
           </div>
 
