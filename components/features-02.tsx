@@ -34,7 +34,7 @@ const features = [
   {
     name: "Own Your Time.",
     description:
-      "Finally, you'll be guided in looking at your calendar for the upcomign week to ensure your time commitments match your priorities.",
+      "Finally, you'll be guided in looking at your calendar for the upcoming week to ensure your time commitments match your priorities.",
     icon: CalendarDaysIcon,
   },
 ];
