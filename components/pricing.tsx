@@ -55,7 +55,7 @@ export default function Pricing() {
               <div className="w-full">
                 <Link
                   className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group flex flex-col items-center justify-center"
-                  href="https://app.unstoppablesunday.com/users/sign_up"
+                  href="https://flow.getunstoppable.com"
                 >
                   <span className="font-bold text-2xl">
                     Help Me Plan My Week{" "}
@@ -65,7 +65,7 @@ export default function Pricing() {
                   </span>
 
                   <span className="text-sm">
-                    30-Day Free Trial, then Just $29/month
+                    7-Day Free Trial, No Credit Card Required, then Just $9/month
                   </span>
                 </Link>
               </div>

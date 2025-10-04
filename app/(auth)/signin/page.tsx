@@ -62,7 +62,7 @@ export default function SignIn() {
           <div className="text-center mt-6">
             <div className="text-sm text-slate-500">
               Don't you have an account?{' '}
-              <Link className="font-medium text-indigo-500" href="https://app.unstoppablesunday.com/users/sign_up">
+              <Link className="font-medium text-indigo-500" href="https://flow.getunstoppable.com">
                 Get Started
               </Link>
             </div>
